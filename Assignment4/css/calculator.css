@@ -1,0 +1,52 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ .centercalcy{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 400px;
+    height: 520px;
+    box-shadow: 0 0 10px 1px grey;
+}
+#display_answer{
+    width: inherit;
+    height: 100px;
+    background-color: #303030;
+    font-size: 2rem;
+    color: white;
+    text-align: right;
+    outline: none;
+    border: none;
+}
+.layer1{
+    width: inherit;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.layer2{
+    width: inherit;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+input{
+   flex: 1; 
+   font-size: 1.4rem;
+   border: 1px solid #504f4f;
+   outline: none;
+
+}
+.oper{
+    background-color: #FF6347;
+}
